@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="src/Core/RafeSound.Application/RafeSound.Application.csproj" />
+    <Project Path="src/Core/RafeSound.Core/RafeSound.Core.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="src/Infrastructure/RafeSound.Infrastructure.Audio/RafeSound.Infrastructure.Audio.csproj" />
+    <Project Path="src/Infrastructure/RafeSound.Infrastructure.Data/RafeSound.Infrastructure.Data.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="tests/RafeSound.Application.Tests/RafeSound.Application.Tests.csproj" />
+    <Project Path="tests/RafeSound.Core.Tests/RafeSound.Core.Tests.csproj" />
+  </Folder>
+  <Folder Name="/UI/">
+    <Project Path="src/UI/RafeSound.Maui/RafeSound.Maui.csproj" />
+  </Folder>
+</Solution>

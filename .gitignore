@@ -1,0 +1,122 @@
+## ====================================================================
+## Environment & Secrets
+## ====================================================================
+.env
+*.env.*
+*.pfx
+*.publishsettings
+
+## ====================================================================
+## Build & Compilation Outputs (.NET / C#)
+## ====================================================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+app.publish/
+binding-redirect.xml
+*.binlog
+
+## ====================================================================
+## Visual Studio & MSBuild
+## ====================================================================
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+*.dbmdl
+*.jfm
+Generated Files/
+_ReSharper*/
+*.ReSharper
+*.DotSettings.user
+
+## ====================================================================
+## Visual Studio Code
+## ====================================================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+*.ionide
+
+## ====================================================================
+## JetBrains Rider
+## ====================================================================
+.idea/
+*.sln.iml
+
+## ====================================================================
+## .NET MAUI / Mobile Platform Targets
+## ====================================================================
+# Android
+*.apk
+*.aab
+*.dex
+proguard/
+assets/dex/
+
+# iOS & macOS (Apple)
+*.ipa
+*.app
+*.dSYM/
+build/
+*.xcarchive
+
+# Windows (MSIX / WinUI)
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+
+## ====================================================================
+## NuGet Packages & Caches
+## ====================================================================
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.assets.json
+
+## ====================================================================
+## Local Storage & Databases
+## ====================================================================
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+## ====================================================================
+## Test & Code Coverage Outputs
+## ====================================================================
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.info
+
+## ====================================================================
+## OS Artifacts & Temporary Files
+## ====================================================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Tt]emp/
+[Tt]mp/
+*.tmp
+*.bak
+*.swp
+*~
